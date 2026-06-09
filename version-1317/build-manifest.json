@@ -1,0 +1,18 @@
+{
+  "site_name": "日韩影视网",
+  "site_title": "日韩影视网 - 在线免费观看经典日韩电影 | 感受不一样的视听盛宴",
+  "movie_count": 2000,
+  "detail_page_count": 2000,
+  "category_counts": {
+    "rihan-yingting": 249,
+    "jingxuan-dianying": 253,
+    "rebo-juji": 251,
+    "xiju-aiqing": 253,
+    "dongzuo-qihuan": 252,
+    "juqing-jiating": 253,
+    "xuanyi-fanzui": 252,
+    "donghua-zongyi": 237
+  },
+  "video_source_count": 20,
+  "cover_rule": "影片封面按根目录 1.jpg 到 150.jpg 循环引用，未额外生成占位图片。"
+}

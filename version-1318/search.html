@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索-日韩影视网</title>
+    <meta name="description" content="日韩影视网搜索页，支持按片名、地区、类型、年份和标签筛选全站影片。">
+    <meta name="keywords" content="经典日韩电影,在线观看,免费观看,日韩影视,日韩电视剧,高清视频,影视大全,免费播放,动人故事,视听盛宴,搜索,筛选">
+    <link rel="stylesheet" href="./assets/site.css">
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="site-logo" href="./index.html" aria-label="日韩影视网">
+            <span class="logo-mark">影</span>
+            <span class="logo-text">日韩影视网</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./categories.html">分类</a>
+            <a class="nav-link" href="./ranking.html">排行榜</a>
+            <a class="nav-link active" href="./search.html">搜索</a>
+        </nav>
+        <form class="header-search site-search-form" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索片名 / 地区 / 类型" aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动端导航">
+        <a class="mobile-nav-link" href="./index.html">首页</a>
+        <a class="mobile-nav-link" href="./categories.html">分类</a>
+        <a class="mobile-nav-link" href="./ranking.html">排行榜</a>
+        <a class="mobile-nav-link" href="./search.html">搜索</a>
+        <form class="mobile-search site-search-form" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main class="page-main">
+    <section class="page-hero search-hero">
+        <p class="eyebrow">SEARCH</p>
+        <h1>搜索与筛选</h1>
+        <p>输入片名、地区、年份、类型或标签，快速定位想看的影片。</p>
+    </section>
+    <section class="content-section">
+        <div class="search-panel">
+            <input type="search" id="search-input" placeholder="搜索片名 / 类型 / 标签 / 简介">
+            <select id="search-type">
+                <option value="">全部类型</option>
+            </select>
+            <select id="search-region">
+                <option value="">全部地区</option>
+            </select>
+            <select id="search-year">
+                <option value="">全部年份</option>
+            </select>
+        </div>
+        <div class="search-count" id="search-count"></div>
+        <div class="movie-grid" id="search-results"></div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <a class="footer-logo" href="./index.html">
+                <span class="logo-mark">影</span>
+                <span>日韩影视网</span>
+            </a>
+            <p>在线免费观看经典日韩电影，感受不一样的视听盛宴，带你走进每一个动人的故事世界。提供最新最全的日韩电视剧、电影、综艺节目高清免费播放</p>
+        </div>
+        <div>
+            <h3>快速导航</h3>
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类总览</a>
+            <a href="./ranking.html">排行榜</a>
+            <a href="./search.html">搜索筛选</a>
+        </div>
+        <div>
+            <h3>热门分类</h3>
+            <a href="./category-japan-korea-hot.html">日韩热映</a>
+            <a href="./category-drama-romance.html">剧情爱情</a>
+            <a href="./category-suspense-crime.html">悬疑犯罪</a>
+            <a href="./category-action-scifi.html">动作科幻</a>
+        </div>
+    </div>
+</footer>
+<script src="./assets/main.js"></script>
+<script src="./assets/search-data.js"></script>
+<script src="./assets/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

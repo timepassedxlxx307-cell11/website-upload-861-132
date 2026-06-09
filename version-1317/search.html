@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索 - 日韩影视网</title>
+    <meta name="description" content="日韩影视网全站搜索，支持影片标题、地区、年份、类型、标签和剧情关键词检索。">
+    <meta name="keywords" content="经典日韩电影,在线观看,免费观看,日韩影视,日韩电视剧,高清视频,影视大全,免费播放,动人故事,视听盛宴">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="搜索 - 日韩影视网">
+    <meta property="og:description" content="日韩影视网全站搜索，支持影片标题、地区、年份、类型、标签和剧情关键词检索。">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="site-logo" href="index.html" aria-label="日韩影视网首页">
+            <span class="logo-mark">▶</span>
+            <span class="logo-text">日韩影视网</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="category/all.html">全部影片</a><a class="nav-link" href="categories.html">分类总览</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link" href="category/rihan-yingting.html">日韩影厅</a><a class="nav-link" href="category/jingxuan-dianying.html">精选电影</a><a class="nav-link" href="category/rebo-juji.html">热播剧集</a><a class="nav-link" href="category/xuanyi-fanzui.html">悬疑犯罪</a>
+        </nav>
+        <form class="header-search" action="search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="搜索影片、地区、年份..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="mobile-menu-button" type="button" aria-label="打开导航" data-mobile-menu-button>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <form class="mobile-search" action="search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <nav aria-label="移动端导航">
+            <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="category/all.html">全部影片</a><a class="nav-link" href="categories.html">分类总览</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link" href="category/rihan-yingting.html">日韩影厅</a><a class="nav-link" href="category/jingxuan-dianying.html">精选电影</a><a class="nav-link" href="category/rebo-juji.html">热播剧集</a><a class="nav-link" href="category/xuanyi-fanzui.html">悬疑犯罪</a>
+        </nav>
+    </div>
+</header>
+<main>
+<section class="page-hero compact-hero">
+    <div class="container">
+        <p class="section-kicker">全站搜索</p>
+        <h1>搜索影片</h1>
+        <p>输入片名、地区、年份、类型、标签或剧情关键词，快速查找对应详情页。</p>
+        <form class="search-page-form" action="search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="例如：韩国、爱情、2025、悬疑" data-search-page-input>
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</section>
+<div class="container page-stack">
+    <div class="search-summary" data-search-summary>请输入关键词开始搜索。</div>
+    <div class="movie-grid" id="searchResults"></div>
+</div>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <div class="footer-logo"><span class="logo-mark">▶</span><span>日韩影视网</span></div>
+            <p>在线免费观看经典日韩电影，感受不一样的视听盛宴，带你走进每一个动人的故事世界。提供最新最全的日韩电视剧、电影、综艺节目高清免费播放</p>
+        </div>
+        <div class="footer-column">
+            <h3>快速导航</h3>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="category/all.html">全部影片</a></li>
+                <li><a href="categories.html">分类总览</a></li>
+                <li><a href="ranking.html">排行榜</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>热门分类</h3>
+            <ul>
+                <li><a href="category/rihan-yingting.html">日韩影厅</a></li><li><a href="category/jingxuan-dianying.html">精选电影</a></li><li><a href="category/rebo-juji.html">热播剧集</a></li><li><a href="category/xuanyi-fanzui.html">悬疑犯罪</a></li><li><a href="category/xiju-aiqing.html">喜剧爱情</a></li><li><a href="category/dongzuo-qihuan.html">动作奇幻</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>观影提示</h3>
+            <p>页面内容已静态化输出，影片详情、简介、评论与相关推荐均可被普通链接访问。</p>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 日韩影视网. 保留所有权利。</div>
+</footer>
+<script src="assets/site.js"></script>
+<script src="assets/data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

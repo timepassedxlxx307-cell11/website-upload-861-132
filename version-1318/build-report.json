@@ -1,0 +1,26 @@
+{
+  "parsed_movies": 2000,
+  "html_files": 2016,
+  "movie_detail_files": 2000,
+  "category_pages": 12,
+  "category_card_total": 4000,
+  "category_counts": {
+    "japan-korea-hot": 334,
+    "classic-cinema": 334,
+    "drama-romance": 334,
+    "suspense-crime": 334,
+    "action-scifi": 334,
+    "comedy-family": 334,
+    "fantasy-adventure": 334,
+    "history-war": 334,
+    "animation-variety": 332,
+    "new-releases": 332,
+    "editor-picks": 332,
+    "night-theater": 332
+  },
+  "jpg_files_in_zip_source": 0,
+  "missing_tracking_pages": [],
+  "player_pages_have_init": true,
+  "player_js_has_hls_logic": true,
+  "logo_ok": true
+}
